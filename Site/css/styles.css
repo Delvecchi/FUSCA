@@ -1,0 +1,43 @@
+body {
+    background-image: url(../imagens/fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+body {
+    font-family: Arial;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 200px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    
+}
+
+.comprar {
+    background:grey;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.item {
+    background: #f7f7f7;
+    border: 1px solid #e7e7e7;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    display: grid;
+}
+
+.grid {
+    margin-top: 135px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+}
